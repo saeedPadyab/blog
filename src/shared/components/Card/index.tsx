@@ -24,7 +24,7 @@ const Card: FunctionComponent<Props> = ({ info }) => {
       </Body>
       <Footer>
         <Link href={getHref(info.slug)} as={getNavigationLink(info.slug)}>
-          <a>Read More</a>
+          <a>Read More &rarr;</a>
         </Link>
       </Footer>
     </Wrapper>
