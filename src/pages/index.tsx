@@ -86,6 +86,7 @@ export async function getStaticProps() {
         tags,
         entries: data && data.entries ? data.entries : [],
       },
+      revalidate: 5,
     };
   } catch (error) {
     return {
