@@ -1,7 +1,8 @@
 import React from "react";
 import Meta from "../Meta";
 import Header from "./Header";
-import Footer from "./Footer";
+import SmallHero from "./SmallHero";
+// import Footer from "./Footer";
 import { MetaTags } from "@Interfaces/meta-tags";
 
 interface IProps {
@@ -12,8 +13,8 @@ const MainLayout: React.FC<IProps> = ({ metaTags, children }) => {
     <>
       <Meta tags={metaTags} />
       <Header />
+      <SmallHero />
       <div className="min-h-screen w-full">{children}</div>
-      <Footer />
     </>
   );
 };

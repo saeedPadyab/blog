@@ -6,6 +6,7 @@
 html,
 body {
   font-family: "Roboto", sans-serif;
+  background-color: white;
 }
 body {
   padding: 0;
@@ -13,10 +14,6 @@ body {
 }
 
 .post-container {
-  margin: 1rem auto 1rem 4rem;
-
-  width: 65%;
-
   border-bottom: 1px solid #ececec;
   padding: 1.5rem 0;
 }
@@ -62,7 +59,6 @@ ol {
   display: flex;
   flex-flow: row;
   padding: 1.5rem 0;
-  margin: 1rem auto 1rem 4rem;
   justify-content: flex-start;
 }
 
@@ -149,8 +145,6 @@ ol {
 @media (min-width: 1200px) {
   .container {
     grid-template-rows: auto 8rem auto;
-
-    margin: 0 3rem;
   }
 
   .container .blogposts {
