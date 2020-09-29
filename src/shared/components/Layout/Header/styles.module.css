@@ -1,0 +1,57 @@
+/* import { xs, sm } from "@Utils/mediaQueries";
+import styled from "styled-components";
+import tw from "twin.macro";
+
+export const Wrapper = styled.div`
+  ${apply`bg-red-500`};
+  ${tscreen`xs`} {
+    ${apply`bg-red-700`}
+  }
+  ${tw`flex h-10`}
+  ${sm} {
+    ${tw`hidden`}
+  }
+  ${xs} {
+    ${tw`flex`}
+  }
+  
+`; */
+
+.nav {
+  display: flex;
+
+  padding: 1.5rem 1rem;
+
+  background-color: #ffffff;
+  border-bottom: 1px solid #ececec;
+}
+
+.brand {
+  display: flex;
+
+  cursor: pointer;
+}
+
+.brand__logo {
+  height: auto;
+  width: auto;
+  max-height: 3rem;
+  margin-right: 1rem;
+}
+
+.brand__name {
+  margin: auto 0;
+
+  color: #16498a;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+
+@media (min-width: 991px) {
+}
+
+@media (min-width: 1200px) {
+  .nav {
+    padding: 1.5rem 4rem;
+  }
+}
