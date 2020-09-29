@@ -88,7 +88,7 @@ export async function getStaticProps({
       article,
       suggestedArticles,
     },
-    unstable_revalidate: 5,
+    revalidate: 5,
   };
 }
 
