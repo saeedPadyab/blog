@@ -3,9 +3,10 @@ import { concatenateStrings } from "@Shared/helper";
 
 export const defaultMetaTags: MetaTags = {
   canonical: `${process.env.DOMAIN_PUBLIC}`,
-  description: "I am a front-end developer expertise in react",
-  image: "https://www.techhive.io/image.png",
+  description: "Whatever you need related to frontend specially react tutorial",
+  image:
+    "https://blog.mailrelay.com/wp-content/uploads/2018/03/que-es-un-blog-1.png",
   robots: concatenateStrings(RobotsContent.index, RobotsContent.follow),
-  title: "Saeed Padyab",
+  title: "My Blogs",
   type: PageType.website,
 };
