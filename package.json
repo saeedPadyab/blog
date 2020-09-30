@@ -6,6 +6,7 @@
     "build": "next build",
     "start": "next start",
     "test": "jest",
+    "export": "npm run build",
     "populate:contentful": "contentful space migration --space-id k8cbto0cos15 src/utils/contentful.js --yes",
     "login:contentful": "contentful login"
   },
