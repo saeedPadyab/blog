@@ -3,7 +3,7 @@
 //   "./src/pages/**/*.{js,ts,jsx,tsx}",
 // ]
 module.exports = {
-  purge: [],
+  purge: false,
   theme: {
     screens: {
       xs: { max: "37.5em" },
