@@ -1,20 +1,20 @@
-import { xs, sm } from "@Utils/mediaQueries";
+// import { xs, sm } from "@Utils/mediaQueries";
 import styled from "styled-components";
-import tw from "twin.macro";
+// import tw from "twin.macro";
 
-export const Wrapper = styled.div`
-  ${apply`bg-red-500`};
-  ${tscreen`xs`} {
-    ${apply`bg-red-700`}
-  }
-  ${tw`flex h-10`}
-  ${sm} {
-    ${tw`hidden`}
-  }
-  ${xs} {
-    ${tw`flex`}
-  }
-`;
+// export const Wrapper = styled.div`
+//   ${apply`bg-red-500`};
+//   ${tscreen`xs`} {
+//     ${apply`bg-red-700`}
+//   }
+//   ${tw`flex h-10`}
+//   ${sm} {
+//     ${tw`hidden`}
+//   }
+//   ${xs} {
+//     ${tw`flex`}
+//   }
+// `;
 export const HeaderWrapper = styled.div`
   ${apply`flex py-4 px-4 items-center shadow fixed top-0 left-0 right-0 w-full z-50 bg-white`};
 `;
