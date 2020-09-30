@@ -1,9 +1,8 @@
-// [
-//   "./src/components/**/*.{js,ts,jsx,tsx}",
-//   "./src/pages/**/*.{js,ts,jsx,tsx}",
-// ]
 module.exports = {
-  purge: false,
+  purge: [
+    "./src/components/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/**/*.{js,ts,jsx,tsx}",
+  ],
   theme: {
     screens: {
       xs: { max: "37.5em" },
