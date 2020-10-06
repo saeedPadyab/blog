@@ -48,22 +48,6 @@ const PostPage: NextPage<Props, any> = (props: Props) => {
   );
 };
 
-// PostPage.getInitialProps = async ({ query }) => {
-//   const contentfulService = new ContentfulService();
-
-//   const { post } = query;
-//   const article = await contentfulService.getPostBySlug(post);
-
-//   const tags =
-//     article && article.tags ? article.tags.map((tag: any) => tag.sys.id) : [];
-
-//   const suggestedArticles = await contentfulService.fetchSuggestions(
-//     tags,
-//     article?.slug
-//   );
-
-//   return { article, suggestedArticles };
-// };
 export async function getStaticProps({
   params,
   preview = false,

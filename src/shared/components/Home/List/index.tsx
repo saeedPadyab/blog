@@ -1,7 +1,6 @@
 import { FC } from "react";
 import Card from "@Shared/components/Card";
 import { BlogPost } from "@Interfaces/post";
-// import Paginator from "@Shared/components/Paginator";
 import { Wrapper } from "./styles";
 
 const cards = (entries: BlogPost[]) => {

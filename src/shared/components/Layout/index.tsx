@@ -2,7 +2,6 @@ import React from "react";
 import Meta from "../Meta";
 import Header from "./Header";
 import SmallHero from "./SmallHero";
-// import Footer from "./Footer";
 import { MetaTags } from "@Interfaces/meta-tags";
 
 interface IProps {

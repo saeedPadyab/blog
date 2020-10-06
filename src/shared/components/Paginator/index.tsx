@@ -1,5 +1,4 @@
 import React, { FunctionComponent, Fragment, useState, useEffect } from "react";
-
 import styles from "./paginator.module.css";
 
 type Props = {

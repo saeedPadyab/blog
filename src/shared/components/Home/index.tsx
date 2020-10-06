@@ -21,20 +21,3 @@ const HomeContent: FC<IProps> = ({ entries = [], tags = [] }) => {
 };
 
 export default HomeContent;
-
-{
-  /* <div className="sidenav">
-<TagFilters
-  tags={props.tags}
-  updatePage={handleTagChosen}
-  selectedTagId={tag}
-/>
-</div>
-<div className="pagination">
-{ <Paginator
-handlePaginationChange={(event) => updatePage(event)}
-range={range}
-skip={page}
-/> }
-</div> */
-}
